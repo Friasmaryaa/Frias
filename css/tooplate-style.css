@@ -1,0 +1,222 @@
+/* 
+
+Template 2110 Character
+http://www.tooplate.com/view/2110-character
+
+
+COLORS 
+
+Primary Dark:       #996666
+Primary Light:      #cc9999
+Secondary:          #9999cc
+Dark Background:    #333333
+Dark Gray Text:     #666666
+Light Gray Text:    #999999
+Footer Gray Text:   #cccccc
+
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
+  padding: 80px;
+  overflow-x: hidden;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+	color: #FF0;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+a,
+button {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  line-height: 2;
+  margin: 0;
+}
+
+.tm-container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* http://w3bits.com/css-masonry/ */
+.masonry {
+  /* Masonry container */
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 0;
+  column-gap: 0;
+}
+
+.item {
+  /* Masonry bricks or child elements */
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tm-relative {
+  position: relative;
+}
+
+.tm-block {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+.tm-block-wider {
+  max-width: 640px;
+  width: calc(100% + 40px);
+}
+
+.tm-block-left {
+  right: 20px;
+  bottom: 20px;
+}
+
+.tm-block-left-2 {
+  right: 60px;
+  top: 15px;
+}
+
+.tm-block-right {
+  padding: 15px 0 20px 20px;
+}
+
+.tm-img-left {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.tm-hero-text {
+  padding: 140px 95px 0;
+}
+
+.tm-block-pad {
+  padding: 67px 63px;
+}
+
+.tm-block-icon {
+  text-align: center;
+  display: block;
+  margin: 0 30px 30px;
+}
+
+.tm-block-brand {
+  position: relative;
+  margin-top: 147px;
+  margin-bottom: 27px;
+}
+
+.tm-block-brand-inner {
+  position: relative;
+  right: 50px;
+  padding: 70px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tm-brand-name {
+  margin: 0 40px 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.tm-bg-dark {
+  background-color: #9ad3e3;
+}
+
+.tm-bg-white {
+  background-color: #ffffff;
+}
+
+.tm-btn {
+  padding: 15px 25px;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.tm-btn-small {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 15px 35px;
+}
+
+.tm-btn-pad-big {
+  padding: 17px 45px;
+}
+
+.tm-btn-primary {
+  color: #9999cc;
+  background-color: #ffffff;
+}
+
+.tm-btn-primary:hover {
+  background-color: #c5c5e6;
+}
+
+.tm-btn-secondary {
+  color: white;
+  background-color: #9999cc;
+}
+
+.tm-btn-secondary:hover {
+  color: #ffffff;
+  background-color: #5b5bb2;
+}
+
+.tm-text-white {
+  color: #ffffff;
+}
+
+.tm-text-gray-light {
+  color: #999999;
+}
+
+.tm-bg-primary-light {
+  background-color: #96bdcf;
+}
+
+.tm-bg-primary-dark {
+  background-color: #0a0a0b;
+}
+
+.tm-bg-secondary {
+  background-color: #252524;
+}
